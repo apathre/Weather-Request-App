@@ -1,0 +1,35 @@
+body{
+  background-color: aliceblue;
+  padding:5px 25px;
+  margin:0;
+  align-items: center;
+  border-color: brown;
+}
+
+.container{
+  align-items: center;
+  justify-items: center;
+  top:25%;
+  left:50%;
+  position:absolute;
+  transform: translate(-50%,-50%);
+
+}
+
+.ghost-input{
+  display:flex;
+  align-items: center;
+  justify-items: center;
+  border-color: black;
+  float:left;
+  padding:10px;
+  margin:20px;
+}
+.ghost-button{
+  display:flex;
+  float:right;
+  margin:10px;
+  padding:10px;
+  border-radius:20px;
+  cursor:pointer;
+}
