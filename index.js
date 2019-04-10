@@ -5,7 +5,7 @@ let ejs = require('ejs');
 const path = require('path');
 const bodyParser = require('body-parser');
 
-let apiKey = 'ec7c00d3fb415abef52730a84a275acd';
+let apiKey = '*********************';
 
 app.use(express.static('public'));
 app.use(bodyParser.urlencoded({ extended: true }));
